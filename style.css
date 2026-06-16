@@ -1,0 +1,203 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#050816;
+color:white;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:40px 20px;
+}
+
+.tag{
+display:inline-block;
+padding:10px 20px;
+border-radius:999px;
+border:1px solid #3b82f6;
+color:#3b82f6;
+}
+
+h1{
+font-size:60px;
+margin-top:20px;
+}
+
+h1 span{
+color:#3b82f6;
+}
+
+.subtitle{
+color:#94a3b8;
+margin:15px 0 30px;
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#050816;
+color:white;
+}
+
+.container{
+max-width:900px;
+margin:auto;
+padding:40px 20px;
+}
+
+.tag{
+display:inline-block;
+padding:10px 20px;
+border-radius:999px;
+border:1px solid #3b82f6;
+color:#3b82f6;
+}
+
+h1{
+font-size:60px;
+margin-top:20px;
+}
+
+h1 span{
+color:#3b82f6;
+}
+
+.subtitle{
+color:#94a3b8;
+margin:15px 0 30px;
+}
+
+.card{
+background:#0f172a;
+border-radius:25px;
+overflow:hidden;
+border:1px solid #1e293b;
+}
+
+.card img{
+width:100%;
+display:block;
+}
+
+.content{
+padding:25px;
+}
+
+.badge{
+display:inline-block;
+padding:8px 15px;
+border-radius:20px;
+background:#0c4a6e;
+color:#7dd3fc;
+}
+
+.content h2{
+margin:15px 0;
+}
+
+.content p{
+color:#94a3b8;
+}
+
+button{
+width:100%;
+padding:16px;
+margin-top:20px;
+border:none;
+border-radius:15px;
+font-size:18px;
+cursor:pointer;
+color:white;
+background:linear-gradient(90deg,#2563eb,#06b6d4);
+box-shadow:0 0 20px rgba(59,130,246,.35);
+}
+
+.modal{
+display:none;
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.75);
+justify-content:center;
+align-items:center;
+padding:20px;
+}
+
+.popup{
+width:100%;
+max-width:700px;
+background:#0f172a;
+border-radius:25px;
+padding:25px;
+}
+
+.close{
+float:right;
+font-size:35px;
+cursor:pointer;
+}
+
+.small-text{
+color:#94a3b8;
+margin-top:10px;
+}
+
+.script-box{
+margin-top:20px;
+background:#020617;
+padding:20px;
+border-radius:15px;
+border:1px solid #1e40af;
+color:#7dd3fc;
+word-break:break-all;
+  }￼Enter
+background:#0f172a;
+border-radius:25px;
+overflow:hidden;
+border:1px solid #1e293b;
+}
+
+.card img{
+width:100%;
+display:block;
+}
+
+.content{
+padding:25px;
+}
+
+.badge{
+display:inline-block;
+padding:8px 15px;
+border-radius:20px;
+background:#0c4a6e;
+color:#7dd3fc;
+}
+
+.content h2{
+margin:15px 0;
+}
+
+.content p{
+color:#94a3b8;
+}
+
+button{
+width:100%;
+padding:16px;
+margin-top:20px;
+border:none;
+border-radius:15px;
+font-size:18px;
+cursor:pointer;
+color:white;
