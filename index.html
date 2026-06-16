@@ -1,138 +1,63 @@
-<!DOCTYPE html>
-<html>
+hereq<!DOCTYPE html>
+<html lang="en">
 <head>
-
-<title>Blue Script Hub</title>
-
-<style>
-
-body{
-background:#050817;
-color:white;
-font-family:Arial;
-padding:30px;
-}
-
-h1{
-font-size:60px;
-}
-
-.blue{
-color:#2d7cff;
-}
-
-.card{
-
-background:#111b36;
-border-radius:25px;
-padding:20px;
-max-width:450px;
-
-}
-
-button{
-
-background:#20bce0;
-border:0;
-padding:20px;
-width:100%;
-border-radius:30px;
-color:white;
-font-size:20px;
-
-}
-
-.popup{
-
-display:none;
-background:#182442;
-padding:20px;
-border-radius:20px;
-
-}
-
-textarea{
-
-width:100%;
-height:100px;
-
-}
-
-</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blue Script Hub</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
-
 <body>
 
+<div class="container">
 
-<p>ROBLOX SCRIPT</p>
+    <div class="tag">ROBLOX SCRIPT</div>
 
+    <h1>Blue <span>Script Hub</span></h1>
 
-<h1>
-Blue <span class="blue">Script</span>
-<br>
-<span class="blue">Hub</span>
-</h1>
+    <p class="subtitle">
+        Select a game to get the script — copy with one click.
+    </p>
 
+    <div class="card">
+        <img src="grow-a-garden-2-codes.jpg" alt="Grow A Garden 2">
 
-<div class="card">
+        <div class="content">
+            <div class="badge">SIMULATOR</div>
 
+            <h2>🌱 Grow A Garden 2</h2>
 
-<h2>🌱 Grow A Garden 2</h2>
+            <p>
+                Auto farm, auto collect, speed hack and many other powerful features.
+            </p>
 
-<p>
-Your own script collection website.
-</p>
-
-
-<button onclick="show()">
-Get Script
-</button>
-
-
-<div class="popup" id="box">
-
-<h3>Script</h3>
-
-<textarea id="code">
-print("Hello Roblox")
-</textarea>
-
-<button onclick="copy()">
-Copy
-</button>
+            <button onclick="openModal()">
+                Get Script
+            </button>
+        </div>
+    </div>
 
 </div>
 
+<div class="modal" id="modal">
+    <div class="popup">
 
+        <span class="close" onclick="closeModal()">&times;</span>
+
+        <h2>🌱 Grow A Garden 2</h2>
+
+        <p>SCRIPT — COPY & PASTE INTO YOUR EXECUTOR</p>
+
+        <div class="script-box" id="script">
+loadstring(game:HttpGet("https://raw.githubusercontent.com/zayco711-maker/Gag2Scriptz/refs/heads/main/lua"))()
+        </div>
+
+        <button onclick="copyScript()">
+            📄 Copy Script
+        </button>
+
+    </div>
 </div>
 
-
-<script>
-
-function show(){
-
-document.getElementById("box").style.display="block";
-
-}
-
-
-function copy(){
-
-let text=document.getElementById("code");
-
-text.select();
-
-navigator.clipboard.writeText(text.value);
-
-alert("Copied!");
-
-}
-
-
-</script>
-
-
+<script src="script.js"></script>
 </body>
 </html>
