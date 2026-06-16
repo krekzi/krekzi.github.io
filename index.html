@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Blue Script Hub</title>
+
+<style>
+
+body{
+background:#050817;
+color:white;
+font-family:Arial;
+padding:30px;
+}
+
+h1{
+font-size:60px;
+}
+
+.blue{
+color:#2d7cff;
+}
+
+.card{
+
+background:#111b36;
+border-radius:25px;
+padding:20px;
+max-width:450px;
+
+}
+
+button{
+
+background:#20bce0;
+border:0;
+padding:20px;
+width:100%;
+border-radius:30px;
+color:white;
+font-size:20px;
+
+}
+
+.popup{
+
+display:none;
+background:#182442;
+padding:20px;
+border-radius:20px;
+
+}
+
+textarea{
+
+width:100%;
+height:100px;
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<p>ROBLOX SCRIPT</p>
+
+
+<h1>
+Blue <span class="blue">Script</span>
+<br>
+<span class="blue">Hub</span>
+</h1>
+
+
+<div class="card">
+
+
+<h2>🌱 Grow A Garden 2</h2>
+
+<p>
+Your own script collection website.
+</p>
+
+
+<button onclick="show()">
+Get Script
+</button>
+
+
+<div class="popup" id="box">
+
+<h3>Script</h3>
+
+<textarea id="code">
+print("Hello Roblox")
+</textarea>
+
+<button onclick="copy()">
+Copy
+</button>
+
+</div>
+
+
+</div>
+
+
+<script>
+
+function show(){
+
+document.getElementById("box").style.display="block";
+
+}
+
+
+function copy(){
+
+let text=document.getElementById("code");
+
+text.select();
+
+navigator.clipboard.writeText(text.value);
+
+alert("Copied!");
+
+}
+
+
+</script>
+
+
+</body>
+</html>
