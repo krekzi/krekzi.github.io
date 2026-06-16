@@ -1,5 +1,15 @@
-function showScript(){
+function openModal(){
+document.getElementById("modal").style.display="flex";
+}
 
-alert("Script button clicked!");
+function closeModal(){
+document.getElementById("modal").style.display="none";
+}
 
+function copyText(){
+const text=document.getElementById("script").innerText;
+
+navigator.clipboard.writeText(text);
+
+alert("Copied!");
 }
